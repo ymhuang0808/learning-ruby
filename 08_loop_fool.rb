@@ -1,0 +1,5 @@
+puts "number: #{ 1 + 1 }"
+puts "number: #{ 1 + 2 }"
+puts "number: #{ 1 + 3 }"
+puts "number: #{ 1 + 4 }"
+puts "number: #{ 1 + 5 }"
