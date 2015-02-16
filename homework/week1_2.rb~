@@ -16,14 +16,15 @@ if name == "阿銘"
 	puts "Jim說看到阿銘就要顯示過重"
 else 
 	
-	if BMI < 18.5
-    puts "紙片人！"
-	elsif 18.5 <= BMI && BMI < 24
-    puts "正常！保持下去吧！"
-	elsif 24 <= BMI && BMI < 27
-    puts "過重，要多運動囉！"
-	elsif BMI > 27
-    puts "連勝文？"
+	if  BMI<18.5
+                puts "紙片人！"
+	elsif  18.5<=BMI && BMI<24
+                puts "正常！保持下去吧！"
+	elsif  24<=BMI && BMI <27
+	puts "過重，要多運動囉！"
+	elsif BMI>27
+	puts "連勝文？"
+
 	end
 
 end
