@@ -5,11 +5,11 @@ puts "你好，你叫什麼名字呢？"
 name =  gets.chomp
 puts "#{name}你好！我是殘酷的計算小精靈，要來幫你算 BMI 囉！"
 puts "請輸入你的身高（單位：公尺）"
-height= gets.chomp.to_f
+height = gets.chomp.to_f
 puts "請輸入你的體重（單位：公斤）" 
 weight = gets.chomp.to_f
-sum=height*height
-BMI=weight/sum
+sum = height*height
+BMI = weight/sum
 
 if name == "阿銘"
   puts "Jim說看到阿銘就要顯示過重"
@@ -23,7 +23,7 @@ else
       puts "過重，要多運動囉！"
     elsif BMI > 27
       puts "連勝文？"
-end
+    end
 
 end
 
